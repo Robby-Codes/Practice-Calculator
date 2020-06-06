@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.calculator-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-wrapper {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+input {
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+button {
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #333;
+    background-color: #333;
+    color: white;
+    outline: none;
+}
